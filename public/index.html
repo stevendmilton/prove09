@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <title>Postal Rate Calculator</title>
+    <link rel="stylesheet" type="text/css" href="/stylesheets/main.css" />
+  </head>
+  <body>
+    <h1>Postal Rate Calculator</h1>
+    <h2>Enter Rate Selections</h2>
+    <form method="get" action="/selection">
+      <fieldset>
+        Unit of Measure:<input type="radio" name="uom" value="oz">Ounces
+        <input type="radio" name="uom" value="lb">Pounds<br>
+        <label for="number">Weight:</label>
+        <input type="number" name="weight" id="weight">
+      </fieldset>
+      <fieldset>
+        <p>Mail Service Type:</p>
+        <input type="radio" name="mailType" value="stamped">Letters (Stamped)<br>
+        <input type="radio" name="mailType" value="metered">Letters (Metered)<br>
+        <input type="radio" name="mailType" value="flats">Large Envelopes (Flats)<br>
+        <input type="radio" name="mailType" value="retail">First-Class Package Service-Retail<br>
+      </fieldset>
+      <input type="submit" name="submit" id="submit" value="Calculate">
+    </form>
+  </body>
+</html>
