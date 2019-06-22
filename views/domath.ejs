@@ -6,8 +6,12 @@
   </head>
   <body>
     <main id="result">
-      <h3>Result:</h3>
-      <p>The postage amount is $<%= sol %></p>
+      <h3>Based on the weight and service type, the package will ship via <%= srv %>.</h3>
+      <h4>Package Weight: <%= wgt %></h4>
+      <h4>The postage amount is $<%= sol %></h4>
+    <form action="/home" method="get">
+      <input type="submit" name="home" id="submitHome" value="Home">
+    </form>
     </main>
   </body>
 </html>

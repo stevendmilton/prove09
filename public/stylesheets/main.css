@@ -17,3 +17,20 @@ form {
 body {
   margin: auto;
 }
+#submitHome, #submit {
+  margin: 5px;
+  padding: 3px;
+}
+
+#indexbody {
+  margin: 10%;
+
+}
+
+#postalmain {
+  background-color: orange;
+  border: 5px solid black;
+  border-radius: 15px 15px 15px 15px;
+  width: 310px;
+  padding: 0 5%;
+}
