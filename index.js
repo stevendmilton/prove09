@@ -1,7 +1,7 @@
 var express = require("express");
 var app = express();
 var path = require('path');
-var port = 5000 || process.env.PORT; // Arbitrary number. Make it whatever you want.
+var port = process.env.PORT || 5000; // Arbitrary number. Make it whatever you want.
 
 app.set("views", "views");
 app.set("view engine", "ejs");
